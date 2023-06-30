@@ -12,21 +12,25 @@ class BenimUyg extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.lime,
         body: SafeArea(
-          child: Container(
-            // transform: Matrix4.rotationZ(-0.5),
+          child:Column(
+            children: <Widget>[
+           Container(
+            color:Colors.white,
             width: 200,
             height: 100,
-            alignment: Alignment.bottomCenter,
-            decoration: BoxDecoration(
-              shape: BoxShape.rectangle,
-              borderRadius: BorderRadiusDirectional.circular(20.0),
-              color: Colors.white,
-            ),
-            margin: EdgeInsets.all(16.0),
-            padding: EdgeInsets.all(26.0),
-            child: Transform(child: Text('Kod Planet')
-            transform: Matrix4.rotationZ(-0.2),
-            alignment: FractionalOffset.center,),
+            child: Text('1.Container')),
+              Container(
+                  color:Colors.blue,
+                  width: 200,
+                  height: 100,
+                  child: Text('2.Container')),
+              Container(
+                  color:Colors.green,
+                  width: 200,
+                  height: 100,
+                  child: Text('3.Container')),
+
+            ],
           ),
         ),
       ),
