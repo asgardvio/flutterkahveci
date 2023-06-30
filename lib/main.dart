@@ -12,7 +12,7 @@ class BenimUyg extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.black,
         body: SafeArea(
-          child:Column(
+          child:Row(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
               Container(
@@ -20,16 +20,27 @@ class BenimUyg extends StatelessWidget {
                 width: 200,
                 height: 100,
                 child: Text('1.Container')),
+              SizedBox(
+                height: 30,
+              ),
               Container(
                   color:Colors.blue,
                   width: 200,
                   height: 100,
                   child: Text('2.Container')),
+              SizedBox(
+                height: 30,
+              ),
+
               Container(
                   color:Colors.green,
                   width: 200,
                   height: 100,
                   child: Text('3.Container')),
+              SizedBox(
+                height: 30,
+              ),
+
 
             ],
           ),
