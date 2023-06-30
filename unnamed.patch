@@ -1,0 +1,17 @@
+Index: lib/main.dart
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lib/main.dart b/lib/main.dart
+--- a/lib/main.dart	(revision 3259e114fdbaca8aef8e6692ebaeedc2a72de7c1)
++++ b/lib/main.dart	(revision 6e6a62b5193ab5d5b6b8d7ad07c6a3f5a009c362)
+@@ -19,7 +19,7 @@
+             alignment: Alignment.bottomCenter,
+             decoration: BoxDecoration(
+               shape: BoxShape.rectangle,
+-              borderRadius: BorderRadiusDirectional.circular(24.0),
++              borderRadius: BorderRadiusDirectional.circular(16.0),
+               color: Colors.white,
+             ),
+             margin: EdgeInsets.all(16.0),
