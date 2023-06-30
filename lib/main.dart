@@ -10,7 +10,7 @@ class BenimUyg extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.lime,
+        backgroundColor: Colors.black,
         body: SafeArea(
           child:Column(
             children: <Widget>[
