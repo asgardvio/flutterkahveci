@@ -19,7 +19,7 @@ class BenimUyg extends StatelessWidget {
             alignment: Alignment.bottomCenter,
             decoration: BoxDecoration(
               shape: BoxShape.rectangle,
-              borderRadius: BorderRadiusDirectional.circular(16.0),
+              borderRadius: BorderRadiusDirectional.circular(24.0),
               color: Colors.white,
             ),
             margin: EdgeInsets.all(16.0),
