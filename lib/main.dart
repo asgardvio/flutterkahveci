@@ -13,12 +13,13 @@ class BenimUyg extends StatelessWidget {
         backgroundColor: Colors.black,
         body: SafeArea(
           child:Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
-           Container(
-            color:Colors.white,
-            width: 200,
-            height: 100,
-            child: Text('1.Container')),
+              Container(
+                color:Colors.white,
+                width: 200,
+                height: 100,
+                child: Text('1.Container')),
               Container(
                   color:Colors.blue,
                   width: 200,
