@@ -17,31 +17,44 @@ class BenimUyg extends StatelessWidget {
             children: <Widget>[
               Container(
                 color:Colors.white,
-                width: 200,
+                // width: 200,
                 height: 100,
                 child: Text('1.Container')),
               SizedBox(
                 height: 30,
+                width: 20,
               ),
               Container(
                   color:Colors.blue,
-                  width: 200,
+                  // width: 200,
                   height: 100,
                   child: Text('2.Container')),
               SizedBox(
                 height: 30,
+                width: 20,
               ),
-
               Container(
                   color:Colors.green,
-                  width: 200,
+                  // width: 200,
                   height: 100,
                   child: Text('3.Container')),
               SizedBox(
                 height: 30,
+                width: 70,
               ),
+              Column(mainAxisAlignment: MainAxisAlignment.spaceAround,children:<Widget>[
+                Container(
+                  height: 50,
+                  width: 50,
+                  color: Colors.amber,
 
-
+                ),
+                Container(
+                  height: 50,
+                  width: 50,
+                  color: Colors.blueGrey,
+                ),
+              ],)
             ],
           ),
         ),
